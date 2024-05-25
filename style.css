@@ -1,0 +1,33 @@
+
+.canvas2d {
+	border: 2px solid black;
+	image-rendering: pixelated;
+/* 	background-color: black; */
+/* 	width: 32%; */
+}
+
+.settings {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 1px;
+}
+
+input[type=number] {
+	width: 6em;
+}
+input[type=text] {
+	width: 32em;
+}
+
+label {
+	border: 1px solid #ddd;
+	margin: 1px;
+}
+
+.view3d {
+	position: fixed;
+}
+.buttons3d {
+	position: absolute;
+	right: 10px;
+}
